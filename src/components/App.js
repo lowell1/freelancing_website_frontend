@@ -6,17 +6,17 @@ import Gigs from "./Gigs";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <TopNavigation />
+    <Router>
+      <TopNavigation />
+      <div className="m-4">
         <Route exact path="/">
           <Home />
         </Route>
         <Route path="/gigs">
           <Gigs />
         </Route>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
