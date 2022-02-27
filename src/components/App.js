@@ -1,11 +1,21 @@
 import React from "react";
 import TopNavigation from "./TopNavigation";
-import Button from "react-bootstrap/Button";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./Home";
+import Gigs from "./Gigs";
 
 function App() {
   return (
     <div className="App">
-      <TopNavigation />
+      <Router>
+        <TopNavigation />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/gigs">
+          <Gigs />
+        </Route>
+      </Router>
     </div>
   );
 }

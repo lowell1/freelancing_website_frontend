@@ -1,0 +1,29 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "gigs": [
+    {
+      "id": 1,
+      "title": "Marketing Website",
+      "category": "web-development",
+      "description": "need someone to build marketing website"
+    },
+    {
+      "id": 2,
+      "title": "Marketing Website",
+      "category": "web-design",
+      "description": "need someone to design marketing website"
+    },
+    {
+      "id": 3,
+      "title": "data science app",
+      "category": "data-science",
+      "description": "need someone to build marketing website"
+    },
+    {
+      "id": 4,
+      "title": "Personal blog",
+      "category": "web-design",
+      "description": "need help designing a blog"
+    }
+  ]
+}
